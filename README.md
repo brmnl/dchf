@@ -6,9 +6,18 @@ This is a prototype Digital Swiss Franc (DCHF) token based on ERC-20 standards t
 
 1. Run a local Ethereum development network using Truffle or Ganache
 2. Configure the network in truffle-config.js
-3. Compile the contract using: truffle compile
-4. Deploy the contract using: truffle migrate --network development 
+3. Compile the contract
+```
+truffle compile
+```
+4. Deploy the contract
+```
+truffle migrate --network development 
+```
 5. Run Tests
+```
+truffle test --network development
+```
 
 ### Example Output Deployment
 
